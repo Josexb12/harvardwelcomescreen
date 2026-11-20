@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>Harvard | Descobre o teu caminho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-frame" id="inicio">
+    <header class="header">
+      <a class="brand" href="#inicio" aria-label="Harvard University — início">
+        <img src="harvardlogo.png" alt="Harvard University" class="brand-logo">
+      </a>
+      <div class="search-box" role="search" aria-label="Pesquisa decorativa"><span>Pesquisar</span><span class="search-symbol" aria-hidden="true">⌕</span></div>
+    </header>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre Harvard</a>
+      <a href="#sobre">Campus</a>
+      <a href="#carreiras">Em foco</a>
+      <a href="#carreiras">Cursos</a>
+      <a href="#sobre">Vida estudantil</a>
+      <a href="#admissoes">Admissões</a>
+    </nav>
+
+    <main>
+      <section class="careers" id="carreiras" aria-labelledby="careers-title">
+        <div class="section-title">
+          <div>
+            <p class="eyebrow"><span></span> HARVARD UNIVERSITY · CAMBRIDGE</p>
+            <h1 id="careers-title">Descobre o teu caminho.</h1>
+          </div>
+          <p class="intro-text">Explora áreas de estudo, ideias e possibilidades para o teu futuro.</p>
+        </div>
+
+        <section class="carousel" aria-label="Áreas de estudo em Harvard">
+          <button class="carousel-arrow previous-slide" type="button" aria-label="Área anterior">←</button>
+          <div class="slider-window" tabindex="0" role="region" aria-label="Carrossel. Usa as setas do teclado, o rato ou desliza para navegar.">
+            <div class="swiper-wrapper">
+              <article class="swiper-slide" aria-label="Investigação">
+                <img class="career-image" src="scienceanddiscovering.jpg" alt="Duas pessoas a examinar um objeto com uma lupa" draggable="false">
+                <div class="image-wash"></div>
+                <span class="slide-index">01 <i>/</i> CIÊNCIA</span>
+                <div class="slide-copy"><span class="card-kicker">Perguntas que mudam o mundo</span><h2>Investigação</h2><p>Segue a curiosidade. Descobre novas respostas.</p></div>
+                <span class="card-mark" aria-hidden="true">↗</span>
+              </article>
+              <article class="swiper-slide" aria-label="Medicina">
+                <img class="career-image" src="doctorimage.jpg" alt="Pombo vestido de médico numa clínica" draggable="false">
+                <div class="image-wash"></div>
+                <span class="slide-index">02 <i>/</i> SAÚDE</span>
+                <div class="slide-copy"><span class="card-kicker">Conhecimento ao serviço da vida</span><h2>Medicina</h2><p>Aprende a cuidar e a transformar vidas.</p></div>
+                <span class="card-mark" aria-hidden="true">↗</span>
+              </article>
+              <article class="swiper-slide" aria-label="Direito">
+                <img class="career-image justice-image" src="justice.jpg" alt="Ilustração anime de um homem com martelo de juiz" draggable="false">
+                <div class="image-wash"></div>
+                <span class="slide-index">03 <i>/</i> SOCIEDADE</span>
+                <div class="slide-copy"><span class="card-kicker">Ideias para um futuro mais justo</span><h2>Direito</h2><p>Compreende as questões que moldam a sociedade.</p></div>
+                <span class="card-mark" aria-hidden="true">↗</span>
+              </article>
+              <article class="swiper-slide" aria-label="Economia">
+                <img class="career-image" src="economyimage.jpg" alt="Meme sobre ações e gráficos financeiros" draggable="false">
+                <div class="image-wash"></div>
+                <span class="slide-index">04 <i>/</i> INOVAÇÃO</span>
+                <div class="slide-copy"><span class="card-kicker">Novas perspetivas, novas soluções</span><h2>Economia</h2><p>Explora ideias que ajudam a pensar o amanhã.</p></div>
+                <span class="card-mark" aria-hidden="true">↗</span>
+              </article>
+            </div>
+          </div>
+          <button class="carousel-arrow next-slide" type="button" aria-label="Área seguinte">→</button>
+        </section>
+
+        <div class="carousel-footer">
+          <div class="slide-indicators" aria-label="Escolher área">
+            <button class="is-current" type="button" data-slide-to="0" aria-label="Ver Investigação"></button>
+            <button type="button" data-slide-to="1" aria-label="Ver Medicina"></button>
+            <button type="button" data-slide-to="2" aria-label="Ver Direito"></button>
+            <button type="button" data-slide-to="3" aria-label="Ver Economia"></button>
+          </div>
+          <div class="footer-cta"><a class="apply-button" href="#admissoes">Candidata-te <span aria-hidden="true">↗</span></a><p class="interaction-hint">USA AS SETAS OU DESLIZA</p></div>
+          <div class="slide-counter" aria-live="polite"><strong>01</strong><i></i><span>04</span></div>
+        </div>
+      </section>
+
+      <section class="about" id="sobre" aria-labelledby="about-title">
+        <div class="about-intro">
+          <p class="eyebrow">FACTOS E HISTÓRIAS</p>
+          <h2 id="about-title">Conhece<br>Harvard.</h2>
+          <p>Uma comunidade movida pela curiosidade, pela partilha e pela vontade de fazer a diferença.</p>
+          <span class="about-year">1636</span>
+        </div>
+        <div class="facts-grid">
+          <article class="fact"><span class="fact-icon" aria-hidden="true">✳</span><div><h3>Uma história com séculos</h3><p>Fundada em Cambridge, Massachusetts</p></div></article>
+          <article class="fact"><span class="fact-icon" aria-hidden="true">⌂</span><div><h3>Escolas e faculdades</h3><p>Muitas formas de aprender e crescer</p></div></article>
+          <article class="fact"><span class="fact-icon" aria-hidden="true">◎</span><div><h3>Uma comunidade global</h3><p>Pessoas e ideias de todo o mundo</p></div></article>
+          <article class="fact"><span class="fact-icon" aria-hidden="true">↗</span><div><h3>Possibilidades sem limite</h3><p>O próximo capítulo começa contigo</p></div></article>
+        </div>
+      </section>
+    </main>
+    <div class="admissions-anchor" id="admissoes"></div>
+    <footer><span>HARVARD UNIVERSITY</span><span>Projeto académico · Design de interfaces</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
